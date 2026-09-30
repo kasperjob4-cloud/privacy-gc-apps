@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — GreenCave</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#5c5c5c; --line:#e3e3e3; --accent:#ff0000; --note:#fff7f7; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Thai", Tahoma, sans-serif;
+    line-height: 1.75;
+    color: var(--ink);
+    background: #fff;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  h2 {
+    font-size: 1.18rem;
+    margin: 40px 0 10px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: none; }
+  .meta { color: var(--muted); font-size: .92rem; margin-bottom: 8px; }
+  .lang {
+    font-size: .85rem;
+    color: var(--muted);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    margin: 64px 0 0;
+  }
+  ul { padding-left: 22px; }
+  li { margin: 8px 0; }
+  a { color: #065fd4; word-break: break-word; }
+  .note {
+    background: var(--note);
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    margin: 24px 0;
+    font-size: .96rem;
+  }
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: .85rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>นโยบายความเป็นส่วนตัว</h1>
+<p class="meta">
+  แอปพลิเคชัน: <strong>GreenCave</strong>
+  &nbsp;·&nbsp;
+  มีผลตั้งแต่: 30 กันยายน 2026
+</p>
+
+<h2>1. ภาพรวม</h2>
+<p>
+GreenCave เป็นแอปพลิเคชันที่ช่วยให้ผู้ใช้เชื่อมต่อบัญชี Google และใช้งานคุณสมบัติที่เกี่ยวข้องกับ YouTube
+ผ่าน YouTube Data API และระบบ OAuth 2.0 ของ Google ตามสิทธิ์ที่ผู้ใช้อนุญาต
+</p>
+
+<p>
+นโยบายฉบับนี้อธิบายประเภทข้อมูลที่ GreenCave อาจเข้าถึง วิธีการใช้และจัดเก็บข้อมูล
+รวมถึงวิธีที่ผู้ใช้สามารถเพิกถอนสิทธิ์หรือร้องขอให้ลบข้อมูลได้
+</p>
+
+<div class="note">
+GreenCave เข้าถึงข้อมูล YouTube และ Google เฉพาะขอบเขตสิทธิ์ที่ผู้ใช้อนุญาตผ่านหน้าจอ OAuth ของ Google
+และใช้ข้อมูลดังกล่าวเพื่อให้บริการตามคำสั่งของผู้ใช้เท่านั้น
+</div>
+
+<h2>2. ข้อมูลที่อาจเข้าถึง</h2>
+<p>
+เมื่อผู้ใช้เชื่อมต่อบัญชี Google หรือ YouTube กับ GreenCave แอปพลิเคชันอาจเข้าถึงข้อมูลต่อไปนี้
+ขึ้นอยู่กับ OAuth Scope ที่ผู้ใช้อนุญาต:
+</p>
+
+<ul>
+  <li><strong>ข้อมูลบัญชี Google ขั้นพื้นฐาน</strong> เช่น ชื่อ อีเมล หรือรหัสบัญชี เมื่อจำเป็นสำหรับการยืนยันตัวตนและเชื่อมโยงบัญชีกับแอปพลิเคชัน</li>
+  <li><strong>ข้อมูลช่อง YouTube</strong> เช่น Channel ID ชื่อช่อง และข้อมูลช่องที่ API อนุญาตให้เข้าถึง</li>
+  <li><strong>ข้อมูลวิดีโอ</strong> เช่น Video ID ชื่อวิดีโอ คำอธิบาย แท็ก สถานะการเผยแพร่ และข้อมูลที่จำเป็นต่อการจัดการวิดีโอ</li>
+  <li><strong>สิทธิ์ในการอัปโหลดหรือจัดการวิดีโอ</strong> เฉพาะเมื่อผู้ใช้อนุญาต Scope ที่เกี่ยวข้อง เพื่อให้ GreenCave ดำเนินการตามคำสั่งของผู้ใช้</li>
+  <li><strong>OAuth Access Token และ Refresh Token</strong> หาก Google ออก Token ดังกล่าวให้ เพื่อให้แอปพลิเคชันสามารถดำเนินงานที่ผู้ใช้อนุญาตโดยไม่ต้องเข้าสู่ระบบใหม่ทุกครั้ง</li>
+</ul>
+
+<p>
+GreenCave จะไม่ขอสิทธิ์เข้าถึงข้อมูลที่ไม่จำเป็นต่อคุณสมบัติของแอปพลิเคชัน
+และจะไม่ขอรหัสผ่านบัญชี Google หรือ YouTube ของผู้ใช้โดยตรง
+</p>
+
+<h2>3. วิธีการใช้ข้อมูล</h2>
+<p>ข้อมูลที่ได้รับจาก Google หรือ YouTube API จะใช้เพื่อวัตถุประสงค์ที่เกี่ยวข้องกับการทำงานของ GreenCave เช่น:</p>
+
+<ul>
+  <li>ยืนยันและเชื่อมต่อบัญชี Google หรือช่อง YouTube ของผู้ใช้</li>
+  <li>แสดงข้อมูลช่องหรือวิดีโอที่จำเป็นภายในแอปพลิเคชัน</li>
+  <li>อัปโหลดวิดีโอไปยังช่อง YouTube ตามคำสั่งของผู้ใช้</li>
+  <li>ตั้งค่าหรือแก้ไขข้อมูลวิดีโอ เช่น ชื่อ คำอธิบาย แท็ก หรือสถานะการเผยแพร่ ตามคำสั่งของผู้ใช้</li>
+  <li>ตรวจสอบผลการทำงานและบันทึกข้อมูลทางเทคนิคที่จำเป็นเพื่อให้ระบบทำงานได้อย่างถูกต้อง</li>
+</ul>
+
+<p>
+GreenCave จะไม่ใช้ข้อมูล Google หรือ YouTube ของผู้ใช้เพื่อโฆษณาแบบเจาะจงบุคคล
+ขายข้อมูล สร้างฐานข้อมูลเพื่อจำหน่าย หรือใช้เพื่อวัตถุประสงค์อื่นที่ไม่เกี่ยวข้องกับฟังก์ชันที่ผู้ใช้ร้องขอ
+</p>
+
+<h2>4. การจัดเก็บข้อมูลและ Token</h2>
+<ul>
+  <li>OAuth Access Token หรือ Refresh Token อาจถูกจัดเก็บอย่างปลอดภัยเพื่อให้แอปพลิเคชันสามารถดำเนินการที่ผู้ใช้อนุญาตได้</li>
+  <li>Token และข้อมูลรับรองจะถูกจำกัดการเข้าถึงเฉพาะส่วนของระบบที่จำเป็น</li>
+  <li>GreenCave จะเก็บข้อมูลไว้เท่าที่จำเป็นต่อการให้บริการ การรักษาความปลอดภัย และข้อกำหนดทางกฎหมายที่เกี่ยวข้อง</li>
+  <li>เมื่อไม่จำเป็นต้องใช้ข้อมูลอีกต่อไป หรือเมื่อผู้ใช้ร้องขอให้ลบข้อมูล GreenCave จะดำเนินการลบข้อมูลตามขอบเขตที่สามารถดำเนินการได้และตามข้อกำหนดที่เกี่ยวข้อง</li>
+</ul>
+
+<h2>5. การแชร์ข้อมูลกับบุคคลที่สาม</h2>
+<p>
+GreenCave จะไม่ขาย ให้เช่า หรือแลกเปลี่ยนข้อมูลส่วนบุคคลของผู้ใช้กับบุคคลที่สาม
+และจะไม่เปิดเผยข้อมูลที่ได้รับจาก Google หรือ YouTube API เว้นแต่:
+</p>
+
+<ul>
+  <li>จำเป็นต่อการให้บริการตามคำสั่งของผู้ใช้</li>
+  <li>ได้รับความยินยอมจากผู้ใช้</li>
+  <li>จำเป็นเพื่อรักษาความปลอดภัย ป้องกันการใช้งานในทางที่ผิด หรือแก้ไขปัญหาทางเทคนิค</li>
+  <li>จำเป็นต้องปฏิบัติตามกฎหมาย คำสั่งศาล หรือข้อกำหนดจากหน่วยงานที่มีอำนาจ</li>
+</ul>
+
+<h2>6. การเพิกถอนสิทธิ์ Google และ YouTube</h2>
+<p>
+ผู้ใช้สามารถเพิกถอนสิทธิ์ของ GreenCave ในการเข้าถึงบัญชี Google หรือ YouTube ได้ตลอดเวลา
+ผ่านหน้าการเชื่อมต่อแอปของบัญชี Google:
+</p>
+
+<ul>
+  <li><a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account — Third-party apps &amp; services</a></li>
+</ul>
+
+<p>
+หลังจากเพิกถอนสิทธิ์ Token ที่เกี่ยวข้องอาจไม่สามารถใช้เพื่อเข้าถึงข้อมูลหรือดำเนินการบนบัญชี YouTube ของผู้ใช้ได้อีก
+และผู้ใช้อาจต้องเชื่อมต่อบัญชีใหม่หากต้องการใช้งานฟังก์ชันดังกล่าวอีกครั้ง
+</p>
+
+<h2>7. การลบข้อมูล</h2>
+<p>
+ผู้ใช้สามารถร้องขอให้ลบข้อมูลที่ GreenCave จัดเก็บเกี่ยวกับบัญชี Google หรือ YouTube ของตนได้
+โดยติดต่อผ่านอีเมลที่ระบุในส่วนติดต่อ
+</p>
+
+<p>
+เมื่อได้รับคำขอ GreenCave จะตรวจสอบและดำเนินการลบข้อมูลที่เกี่ยวข้องภายในระยะเวลาที่เหมาะสม
+เว้นแต่ข้อมูลบางส่วนจำเป็นต้องเก็บไว้ตามกฎหมาย หรือเพื่อความปลอดภัยและการป้องกันการใช้งานในทางที่ผิด
+</p>
+
+<h2>8. ความปลอดภัย</h2>
+<p>
+GreenCave ใช้มาตรการด้านเทคนิคและการจัดการที่เหมาะสมเพื่อป้องกันข้อมูลผู้ใช้
+OAuth Token และข้อมูลที่เกี่ยวข้องจากการเข้าถึง การเปิดเผย การแก้ไข หรือการทำลายโดยไม่ได้รับอนุญาต
+</p>
+
+<p>
+ข้อมูลรับรอง เช่น Client Secret, Access Token และ Refresh Token ไม่ควรถูกเผยแพร่ต่อสาธารณะ
+หรือจัดเก็บในพื้นที่ที่บุคคลที่ไม่ได้รับอนุญาตสามารถเข้าถึงได้
+</p>
+
+<h2>9. การใช้ YouTube API Services</h2>
+<p>
+GreenCave ใช้ YouTube API Services ของ Google/YouTube
+ดังนั้นการใช้งานคุณสมบัติที่เกี่ยวข้องกับ YouTube ยังอยู่ภายใต้ข้อกำหนดและนโยบายของ Google และ YouTube
+</p>
+
+<ul>
+  <li><a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+  <li><a href="https://developers.google.com/youtube/terms/developer-policies" target="_blank" rel="noopener">YouTube API Services Developer Policies</a></li>
+  <li><a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a></li>
+</ul>
+
+<h2>10. การใช้ข้อมูล Google แบบจำกัดวัตถุประสงค์</h2>
+<p>
+GreenCave ใช้ข้อมูลที่ได้รับผ่าน Google APIs เฉพาะเพื่อให้บริการหรือปรับปรุงคุณสมบัติที่ผู้ใช้ร้องขอ
+และจะปฏิบัติตามข้อกำหนดที่เกี่ยวข้องของ Google API Services User Data Policy
+รวมถึงหลักการ Limited Use ในกรณีที่มีผลบังคับใช้
+</p>
+
+<h2>11. เด็กและเยาวชน</h2>
+<p>
+GreenCave ไม่ได้ออกแบบมาเพื่อเก็บรวบรวมข้อมูลส่วนบุคคลของเด็กโดยเจตนา
+และการใช้งานบัญชี Google หรือ YouTube ยังคงอยู่ภายใต้ข้อกำหนดด้านอายุและนโยบายของ Google/YouTube
+</p>
+
+<h2>12. การเปลี่ยนแปลงนโยบาย</h2>
+<p>
+GreenCave อาจปรับปรุงนโยบายความเป็นส่วนตัวฉบับนี้เมื่อมีการเปลี่ยนแปลงคุณสมบัติของแอปพลิเคชัน
+ข้อกำหนดทางกฎหมาย หรือข้อกำหนดของ Google/YouTube โดยวันที่มีผลบังคับใช้ด้านบนจะถูกปรับปรุงตามความเหมาะสม
+</p>
+
+<h2>13. ติดต่อ</h2>
+<p>
+หากมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัว การใช้ข้อมูล หรือคำขอลบข้อมูล สามารถติดต่อได้ที่:
+</p>
+
+<p>
+อีเมล:
+<a href="mailto:pachakt99@gmail.com">pachakt99@gmail.com</a>
+</p>
+
+<hr style="border:none;border-top:1px solid var(--line);margin:64px 0 0">
+
+<p class="lang">English version</p>
+
+<h1 style="font-size:1.55rem">Privacy Policy</h1>
+<p class="meta">
+  Application: <strong>GreenCave</strong>
+  &nbsp;·&nbsp;
+  Effective date: September 30, 2026
+</p>
+
+<h2>1. Overview</h2>
+<p>
+GreenCave is an application that allows users to connect their Google account and use YouTube-related features
+through the YouTube Data API and Google's OAuth 2.0 authorization system, subject to permissions granted by the user.
+</p>
+
+<p>
+This Privacy Policy explains the types of information GreenCave may access, how that information is used and stored,
+and how users can revoke access or request deletion of their information.
+</p>
+
+<div class="note">
+GreenCave accesses Google and YouTube information only within the permissions authorized by the user through Google's OAuth consent flow
+and uses that information only to provide features requested by the user.
+</div>
+
+<h2>2. Information We May Access</h2>
+<p>
+When a user connects a Google or YouTube account to GreenCave, the Application may access the following information,
+depending on the OAuth scopes authorized by the user:
+</p>
+
+<ul>
+  <li><strong>Basic Google account information</strong>, such as name, email address, or account identifier when needed for authentication and account linking.</li>
+  <li><strong>YouTube channel information</strong>, such as Channel ID, channel name, and other channel information available through authorized API access.</li>
+  <li><strong>Video information</strong>, such as Video ID, title, description, tags, publication status, and information needed to manage videos.</li>
+  <li><strong>Permissions to upload or manage videos</strong>, only when the user grants the relevant OAuth scope and requests those actions.</li>
+  <li><strong>OAuth Access Tokens and Refresh Tokens</strong>, when issued by Google, to allow the Application to perform authorized operations without requiring the user to sign in again each time.</li>
+</ul>
+
+<p>
+GreenCave does not request access to information that is unnecessary for its functionality
+and does not directly request or store a user's Google or YouTube password.
+</p>
+
+<h2>3. How We Use Information</h2>
+<p>Information obtained through Google or YouTube APIs is used for purposes related to GreenCave's user-facing functionality, including:</p>
+
+<ul>
+  <li>Authenticating and connecting the user's Google account or YouTube channel.</li>
+  <li>Displaying channel or video information needed within the Application.</li>
+  <li>Uploading videos to the user's YouTube channel at the user's request.</li>
+  <li>Setting or updating video information such as title, description, tags, or publication status at the user's request.</li>
+  <li>Monitoring operation results and maintaining technical records reasonably necessary for the Application to function correctly.</li>
+</ul>
+
+<p>
+GreenCave does not use Google or YouTube user data for personalized advertising,
+sell user data, create databases for resale, or use such data for unrelated purposes.
+</p>
+
+<h2>4. Data and Token Storage</h2>
+<ul>
+  <li>OAuth Access Tokens or Refresh Tokens may be stored securely so GreenCave can perform operations authorized by the user.</li>
+  <li>Tokens and credentials are restricted to system components that require access.</li>
+  <li>Information is retained only as long as reasonably necessary to operate the service, maintain security, or comply with applicable law.</li>
+  <li>When information is no longer required, or when a valid deletion request is received, GreenCave will delete relevant information to the extent reasonably possible and legally permitted.</li>
+</ul>
+
+<h2>5. Sharing of Information</h2>
+<p>
+GreenCave does not sell, rent, or trade users' personal information to third parties
+and does not disclose information obtained through Google or YouTube APIs except when:
+</p>
+
+<ul>
+  <li>Necessary to provide a service requested by the user.</li>
+  <li>The user has provided consent.</li>
+  <li>Necessary for security, abuse prevention, or technical troubleshooting.</li>
+  <li>Required by applicable law, court order, or a lawful request from a competent authority.</li>
+</ul>
+
+<h2>6. Revoking Google and YouTube Access</h2>
+<p>
+Users can revoke GreenCave's access to their Google or YouTube account at any time
+through the Google Account third-party access settings:
+</p>
+
+<ul>
+  <li><a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account — Third-party apps &amp; services</a></li>
+</ul>
+
+<p>
+After access is revoked, associated tokens may no longer be usable to access information or perform actions on the user's YouTube account.
+The user may need to reconnect the account to use those features again.
+</p>
+
+<h2>7. Data Deletion</h2>
+<p>
+Users may request deletion of information stored by GreenCave in connection with their Google or YouTube account
+by contacting the email address provided in the Contact section.
+</p>
+
+<p>
+Upon receiving a valid request, GreenCave will review and delete relevant information within a reasonable period,
+unless certain information must be retained for legal, security, or abuse-prevention purposes.
+</p>
+
+<h2>8. Security</h2>
+<p>
+GreenCave uses reasonable technical and organizational safeguards designed to protect user information,
+OAuth tokens, and related data against unauthorized access, disclosure, alteration, or destruction.
+</p>
+
+<p>
+Credentials such as Client Secrets, Access Tokens, and Refresh Tokens should not be exposed publicly
+or stored in locations accessible to unauthorized persons.
+</p>
+
+<h2>9. Use of YouTube API Services</h2>
+<p>
+GreenCave uses YouTube API Services provided by Google/YouTube.
+Use of YouTube-related features is also subject to applicable Google and YouTube terms and policies.
+</p>
+
+<ul>
+  <li><a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+  <li><a href="https://developers.google.com/youtube/terms/developer-policies" target="_blank" rel="noopener">YouTube API Services Developer Policies</a></li>
+  <li><a href="https://developers.google.com/youtube/terms/api-services-terms-of-service" target="_blank" rel="noopener">YouTube API Services Terms of Service</a></li>
+</ul>
+
+<h2>10. Limited Use of Google User Data</h2>
+<p>
+GreenCave's use of information received from Google APIs is limited to providing or improving the user-facing features requested by the user
+and will comply with applicable requirements of the Google API Services User Data Policy,
+including Limited Use requirements where applicable.
+</p>
+
+<h2>11. Children's Privacy</h2>
+<p>
+GreenCave is not designed to knowingly collect personal information from children.
+Use of Google and YouTube accounts remains subject to Google's and YouTube's applicable age requirements and policies.
+</p>
+
+<h2>12. Changes to This Policy</h2>
+<p>
+GreenCave may update this Privacy Policy when the Application's features, applicable laws,
+or Google/YouTube requirements change. The effective date above will be updated when appropriate.
+</p>
+
+<h2>13. Contact</h2>
+<p>
+For questions regarding this Privacy Policy, use of data, or requests for data deletion, please contact:
+</p>
+
+<p>
+Email:
+<a href="mailto:pachakt99@gmail.com">pachakt99@gmail.com</a>
+</p>
+
+<footer>
+  © 2026 GreenCave. GreenCave is not affiliated with or endorsed by Google LLC or YouTube.
+</footer>
+
+</body>
+</html>
